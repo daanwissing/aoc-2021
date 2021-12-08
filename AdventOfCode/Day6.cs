@@ -23,10 +23,6 @@ public static class Day6
                 buckets[x]++;
             });
 
-
-
-
-
         var days = 256;
         for (int day = 0; day < days; day++)
         {
