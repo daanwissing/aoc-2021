@@ -4,7 +4,7 @@ public class Day9 : Day
     {
     }
 
-    public override Task Run()
+    public override void Run()
     {
         int dimX = _input.Length;
         int dimY = _input[0].Length;
@@ -75,6 +75,5 @@ public class Day9 : Day
 
         System.Console.WriteLine($"total of three: {largests}");
 
-        return Task.CompletedTask;
     }
 }

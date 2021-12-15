@@ -7,5 +7,5 @@ public abstract class Day
         _input = File.ReadAllLines(inputFile);
     }
 
-    public abstract Task Run();
+    public abstract void Run();
 }

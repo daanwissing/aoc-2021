@@ -8,7 +8,7 @@ public class Day10 : Day
     private static string closings = "]})>";
 
 
-    public override Task Run()
+    public override void Run()
     {
         var corruptSum = 0;
         var incompletes = new List<long>();
@@ -55,7 +55,6 @@ public class Day10 : Day
         incompletes.Sort();
         System.Console.WriteLine($"Corrupt: {corruptSum}");
         System.Console.WriteLine($"Middle score: {incompletes[incompletes.Count / 2]}");
-        return Task.CompletedTask;
 
 
         long calcCost(char c) => c switch

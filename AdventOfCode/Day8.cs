@@ -6,7 +6,7 @@ public class Day8 : Day
     {
     }
 
-    public override Task Run()
+    public override void Run()
     {
         var sum = 0;
         foreach (var line in _input)
@@ -85,7 +85,6 @@ public class Day8 : Day
 
         }
         Console.WriteLine(sum);
-        return Task.CompletedTask;
     }
 
     private static string[] ParseNumbers(string input)
