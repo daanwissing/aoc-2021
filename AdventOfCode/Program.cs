@@ -9,9 +9,11 @@ var sw = Stopwatch.StartNew();
 //  await Day5.Run();
 //  await Day6.Run();
 // await Day7.Run();
-new Day8().Run();
+// new Day8().Run();
+// new Day9().Run();
+new Day10().Run();
 
 
 
 sw.Stop();
-Console.WriteLine(sw.Elapsed);
+Console.WriteLine($"Elapsed: {sw.Elapsed}");
