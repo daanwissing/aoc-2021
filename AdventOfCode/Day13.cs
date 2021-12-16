@@ -80,7 +80,7 @@ public class Day13 : Day
         {
             for (int x = 0; x < dimX; x++)
             {
-                Console.Write(grid[y][x] ? "##" : "..");
+                Console.Write(grid[y][x] ? "##" : "  ");
             }
             Console.WriteLine();
         }

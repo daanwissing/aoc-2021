@@ -95,19 +95,6 @@ public class Day11 : Day
             }
         }
 
-        void PrintGrid()
-        {
-            for (int x = 0; x < dimX; x++)
-            {
-                for (int y = 0; y < dimY; y++)
-                {
-                    Console.Write(grid[x][y]);
-                }
-                Console.WriteLine();
-            }
-            System.Console.WriteLine();
-        }
-
         System.Console.WriteLine($"Flashes: {totalFlashes}");
     }
 }
